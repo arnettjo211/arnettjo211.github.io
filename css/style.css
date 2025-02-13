@@ -410,7 +410,7 @@ p {
 
 .top_left_cont h2 {
     font-size: 40px;
-    color: #FFF;
+    color: white;
     margin: 0 0 26px 0;
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -420,7 +420,7 @@ p {
 .top_left_cont h2 strong {
     font-weight: 700;
 	
-    color: #FFE800;
+    color: #ED5441 ;
 }
 
 .top_left_cont p {
@@ -471,11 +471,6 @@ a.read_more:hover {
 }
 
 	
-
-
-
-
-
 
 
 /* Services
@@ -828,7 +823,7 @@ img {
 /* About Us
 --------------------------- */
  
-.aboutUs-container {
+/*.aboutUs-container {
 background-repeat: no-repeat;
 background-position: right;
 background-size: auto 100%;
@@ -862,7 +857,7 @@ background-position-y: 70px;
 	padding-left:0px;
 }
 .about-us p{
-	/*font-size: 0.9375em;*/
+	/*font-size: 0.9375em;*//*
 	line-height: 1.625em;
 	padding: 15px 0;
 }
@@ -891,6 +886,96 @@ background-position-y: 70px;
 .about-us-link a:first-child{
 	margin-left: 0;
 }
+*/
+
+
+
+
+html, body {
+    height: 1000%;
+    margin: 0;
+    padding: 0;
+}
+.aboutUs-container {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+    background-position-y: 70px;
+}
+
+#about-us .read-more {
+    border: 1px solid #ED5441;
+    color: #1a1a1a;
+}
+
+#about-us .read-more:hover {
+    background-color: #e74c3c;
+    border: 1px solid #e74c3c;
+    color: #fff;
+}
+
+.about-us-post-container {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+}
+
+.about-us {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    background-color: bisque; /* Light background color for the about-us section */
+    padding: 30px; /* Padding around the section to give some spacing */
+    border-radius: 8px; /* Optional: for rounded corners */
+}
+
+.about-us h3 {
+    font-size: 28px;
+}
+
+.points {
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding-left: 0px;
+}
+
+.about-us p {
+    line-height: 1.625em;
+    padding: 15px 0;
+}
+
+.about-us .about-us-list {
+    list-style: none;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    background-color: rgb(241, 234, 225); /* White background for the list */
+    padding: 20px; /* Padding for the list */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for the list */
+}
+
+.about-us .points {
+    position: relative;
+    list-style-type: none;
+    padding: 5px 0 5px 30px;
+}
+
+.about-us .points:before {
+    content: "\f058";
+    position: absolute;
+    font-family: FontAwesome;
+    font-size: 1.125em;
+    color: #CE1139;
+    left: 0px;
+    top: 3px;
+}
+
+.about-us-link a:first-child {
+    margin-left: 0;
+}
+
+
+
+
 
 
 /* Team
