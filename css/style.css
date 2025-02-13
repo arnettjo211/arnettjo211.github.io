@@ -359,12 +359,24 @@ p {
 /* Top_content
 ---------------------------------*/
 
-.top_cont_outer {
+/*.top_cont_outer {
+    background-image: url('../img/about1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     background: #ED5441;
     position: relative;
 	
     background: #CE1139;
 	height:650px;
+}*/
+
+.top_cont_outer {
+    background-image: url('../img/portfolio_pic8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #CE1139; /* Use background-color to set the fallback color */
+    position: relative;
+    height: 650px;
 }
 
 .hero_section {
@@ -783,7 +795,7 @@ img {
 
 
 .client_logos {
-    background: #CE1139;
+    background: bisque;
     padding: 60px 0;
     margin-top: 60px;
 }
@@ -1236,7 +1248,7 @@ border: 1px solid #CE1139;
 ---------------------------------*/
 
 .footer_wrapper {
-    background: #232323;
+    background: rgb(16, 13, 10);
 }
 
 .footer_bottom {
